@@ -68,8 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <h3>${meal}</h3>
               <ul>
                 ${menuItems[i]?.split(';').map(item => `
-                  <li>${highlightSpecial(item.trim())}</li>
-                  <li>${StyleGeneric(item.trim())}</li>
+                  <li>${highlightSpecial(item.trim())}</li>                
                 `).join('') || '<li>No menu available</li>'}
               </ul>
             </div>
