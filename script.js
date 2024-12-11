@@ -33,7 +33,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     return item;
   }
-
+  // Style Generic items
+  function StyleGeneric(item) {
+    if (item.includes('`')) {
+      const cleanedItem = item.replace('`', '').trim();
+      return `<span class="obvs">${cleanedItem}</span>`;
+    }
+    return item;
+  }
   // Load menu
   function loadMenu(day) {
     fetch(menuCSV)
