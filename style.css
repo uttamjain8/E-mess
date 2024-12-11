@@ -85,7 +85,12 @@ body {
   color: green;
   font-weight: bold;
 }
-
+.week2 {
+  text-decoration: underline;
+}
+.obvs {
+  text-emphasis-color: rgb(130, 180, 150);
+}
 .badge {
   display: inline-block;
   background-color: #28a745;
