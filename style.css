@@ -82,8 +82,8 @@ body {
 }
 
 .special {
-  color: green;
   font-weight: bold;
+  text-decoration: underline;
 }
 .week2 {
   text-decoration: underline;
