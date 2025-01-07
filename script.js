@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function highlightSpecial(item) {
     if (item.includes('*')) {
       const cleanedItem = item.replace('*', '').trim();
-      return `<span class="special">${cleanedItem}<span class="badge">week:3-4</span></span>`;
+      return `<span class="special">${cleanedItem}<span class="badge">week:1-3</span></span>`;
     }
     return item;
   }
